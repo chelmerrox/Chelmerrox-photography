@@ -1,0 +1,68 @@
+/*Styles aand position of the whole body*/
+body {
+    margin: 0;
+    position: static;
+    background-color: white;
+    display: block;
+    font-family: sans-serif, arial;
+}
+
+/*Styles and position of the header at the top of web page*/
+header {
+    background-color: rgb(150, 38, 255);
+    font: 40px sans-serif, arial;
+    color: rgb(247, 239, 239);
+    padding: 19px;
+    text-shadow: 13px 13px 12px rgb(247, 239, 239);
+    text-align: center;
+    
+}
+
+/*Styles and position of heading*/
+h2 {
+    color: grey;
+    font: 35px sans-serif, arial;
+    text-shadow: 5px 0 13px grey;
+    text-align: center;
+    
+}
+
+/*Styles and position of all sub-containers*/
+.sub-container {
+    display: inline-block;
+    margin: 40px;
+    padding: 35px;
+    background-color: rgb(219, 211, 211);
+    border: 1px solid rgb(219, 211, 211);
+    border-radius: 23px;
+    box-shadow: 1px 1px 12px grey;
+}
+
+/*Styles for headings under each of my photographs*/
+.headings {
+    font-family: sans-serif, arial;
+    color: grey;
+    font-style: italic;
+}
+
+/*Styles and position of all photo description*/
+.description {
+    color: grey;
+    font: 13px sans-serif, arial;
+    text-align: justify;
+}
+
+/*Styles and position of content at the bottom of the page*/
+#bottomcontainer {
+    background-color: black;
+    font: 15px sans-serif, arial;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+/*Position of the copyright symbol*/
+i {
+    position: relative;
+    top: 5px;
+}
